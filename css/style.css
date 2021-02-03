@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "FirstFont";
+    src: url("css/fonts/HelveticaNeueCyr-Bold.ttf")
+}
+
+#gato {
+    height: 500px;
+    width: 500px;
+}
+
+#cara {
+    height: 500px;
+    width: 500px;
+}
+
+#tv {
+    height: 500px;
+    width: 500px;
+}
+
+#duke {
+    font-family: "FirstFont";
+}
