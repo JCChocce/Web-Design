@@ -1,39 +1,62 @@
 @font-face {
     font-family: "FirstFont";
-    src: url("css/fonts/HelveticaNeueCyr-Bold.ttf")
+    src: url("fonts/HelveticaNeueCyr-Bold.ttf")
 }
 
-#gato {
-    height: 200px;
-    width: 200px;
-    margin-left: 22%;
+#grid {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-template-rows: 35% auto 35%;
+    height: 100vh;
 }
 
-#cara {
-    height: 200px;
-    width: 200px;
-    margin-left: 10%;
-}
-
-#tv {
-    height: 200px;
-    width: 200px;
-    margin-left: 10%;
+#container {
+    position: relative;
 }
 
 #duke {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 95px;
-    letter-spacing: -10px;
+    height: 45%;
+    width: auto;
+    padding-left: 25%;
+    position: absolute;
+}
+
+#bike {
+    height: 100%;
+    position: fixed;
+}
+
+#cat{
+    height: 500px;
+    width: 500px;
+    padding-top: 700px;
+    align-items: center;
+}
+
+#tv{
+    height: 500px;
+    width: 500px;
+    align-items: center;
+}
+
+#face{
+    height: 500px;
+    width: 500px;
+    align-items: center;
 }
 
 .text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
     text-align: left;
-    margin-left: 22%;
-    line-height: 1.5;
-    font-size: 80%;
+    position: absolute;
+    padding-top: 350px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #231F20;
+    font-family: "FirstFont";
+    line-height: 1em;
+    font-size: 18px;
+    font-weight:700;
+    letter-spacing: -1px;
 }
