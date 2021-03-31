@@ -16,10 +16,11 @@
 }
 
 #duke {
-    height: 25vw;
+    height: 20vw;
     width: auto;
     padding-left: 20%;
     position: absolute;
+    z-index: 100;
     
 }
 
