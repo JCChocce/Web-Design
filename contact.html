@@ -13,22 +13,25 @@
 </head>
 <body id=background>
 
-<div>
-    <img id="face" src="images/face1.png" alt="face">
-</div>
+    <div>
+        <a href="index.html" target="_self">
+            <img id="duke" src="images/duke_contactRed.gif" alt="title">
+        </a>
+        <img id="face" src="images/face1.png" alt="face">
+    </div>
 
-<form id=contact action="https://formspree.io/f/xzbknrvg" method="POST">
-    <label  for="userName">What is your Name?</label><br>
-    <input type="text" id="userName" name="name" value="Your Name"><br>
+    <form id=contact action="https://formspree.io/f/xzbknrvg" method="POST">
+        <label  for="userName">Got a Name?</label><br>
+        <input type="text" id="userName" name="name" value="name"><br>
+        <br>
+        <label for="emailContanct">@?</label><br>
+        <input type="text" id="emailContact" name="emailaddress" value="email"><br>
+        <br>
+        <label for="messageID">hey</label><br>
+        <textarea id="messageID" name="message"></textarea>
 
-    <label for="emailContanct">What is your email address</label><br>
-    <input type="text" id="emailContact" name="emailaddress" value="Your Email Address"><br>
-
-    <label for="messageID">Message</label><br>
-    <textarea id="messageID" name="message">What is your message</textarea>
-
-    <button type="submit" class="btn btn-outline-dark">Submit</button>
-</form>
+        <button type="submit" class="btn btn-outline-dark">Submit</button>
+    </form>
     
 </body>
 </html>

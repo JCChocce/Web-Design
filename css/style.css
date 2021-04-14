@@ -29,26 +29,10 @@
     position: fixed;
 }
 
-#cat{
-    height: 15vw;
-    padding-top: 700px;
-    align-items: center;
-}
-
-#tv{
-    height: 15vw;
-    align-items: center;
-}
-
-#face{
-    height: 15vw;
-    align-items: center;
-}
-
 .text {
-    text-align: fixed;
-    position: absolute;
-    padding-top: 350px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 95%;
 }
 
 .text a {
@@ -62,27 +46,37 @@
 }
 
 #face{
-    position: fixed;
-    height: 40vw;
-    padding-left: 650px;
-    top: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 40%;
+    height: 30vw;
 }
 
 #contact{
     text-align: left;
     position: absolute;
-    padding-top: 370px;
+    padding-top: 20%;
+    padding-left: 65%;
+    color: #231F20;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    font-size: 1vw;
+    font-weight: 20px;
+    letter-spacing: -1px;
+
 }
 
 #background{
-    background-color: #f7e857;
+    background-color: #fffc56;
 }
 
 #body{
     height: 52vw;
     position: fixed;
-    padding-left: 150px;
-    bottom: 0.3px;  
+    padding-left: 10%;
+    top: 0;
 }
 
 #aboutBody{
@@ -91,8 +85,49 @@
 
 #scan{
     position: fixed;
-    height: 100vh;
-    padding-left: 500px;
+    height: 50vh;
+    padding-top: 10%;
+    padding-left: 35%;
     border: rgb(14, 14, 14);
 }
    
+#WOOF{
+    text-decoration: none;
+    color: #231F20;
+    font-family: "FirstFont";
+    line-height: 1em;
+    font-size: 1vw;
+    font-weight:700;
+    letter-spacing: -1px;
+    position: absolute;
+    padding-top: 35%;
+    padding-left: 52.5%;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+#vector{
+    position: relative;
+    padding-left: 15%;
+    padding-top: 8%;
+}
+
+#aboutText{
+    text-align: left;
+    position: absolute;
+    padding-top: 30%;
+    padding-left: 43%;
+    color: #ffffff;
+    font-family: "FirstFont";
+    font-size: 1vw;
+    font-weight:700;
+}
+
+#backline{
+    position:fixed;
+    height: 70vw;
+    margin-left: -10%;
+}
